@@ -7,7 +7,7 @@
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wysiwyg-vars",
 		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-master"
 	},
-	"data_from": "nl",
+	"data_from": "netherlands",
 	"scripts": {
 		"site:custom" : []
 	}
