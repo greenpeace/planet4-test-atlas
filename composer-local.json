@@ -4,8 +4,7 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-collect-vars",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wysiwyg-vars",
-		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-master"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wysiwyg-vars"
 	},
 	"data_from": "netherlands",
 	"scripts": {
