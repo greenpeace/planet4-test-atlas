@@ -4,14 +4,9 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-dashdash",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wysiwyg-vars",
-		"greenpeace/planet4-child-theme-netherlands": "dev-master"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wysiwyg-vars"
 	},
-	"data_from": "netherlands",
+	"data_from": "international",
 	"scripts": {
-		"core:language": "wp language core install nl_NL; wp language core activate nl_NL",
-		"site:custom" : [
-			"@core:language"
-		]
 	}
 }
