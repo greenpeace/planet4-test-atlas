@@ -3,8 +3,8 @@
 	"description": "Greenpeace P4 test-atlas ",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-dashdash",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wysiwyg-vars"
+		"greenpeace/planet4-master-theme" : "dev-master",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master"
 	},
 	"data_from": "international",
 	"scripts": {
