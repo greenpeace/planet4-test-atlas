@@ -33,7 +33,7 @@ job_environments:
     HELM_RELEASE: planet4-test-atlas
     WP_DB_NAME: planet4-testatla_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-atlas-stateless-develop
-    CHART_VERSION: 0.8.20-alpha
+    CHART_VERSION: 0.8.19
 
 
 commands:
