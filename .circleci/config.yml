@@ -12,7 +12,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:update-enable-ns-create
+    - image: greenpeaceinternational/p4-builder:build-1880
       auth:
         <<: *docker_auth
 
