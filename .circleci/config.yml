@@ -9,7 +9,7 @@ docker_auth: &docker_auth
   password: $DOCKERHUB_PASSWORD
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:build-1881
+    - image: greenpeaceinternational/p4-builder:latest
       auth:
         !!merge <<: *docker_auth
 orbs:
@@ -29,7 +29,6 @@ job_environments:
     HELM_RELEASE: planet4-test-atlas
     WP_DB_NAME: planet4-testatla_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-atlas-stateless-develop
-    CHART_VERSION: 0.8.29-alpha
 commands:
   approve_job:
     description: "Approve an on-hold job."
