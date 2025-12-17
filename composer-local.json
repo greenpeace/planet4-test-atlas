@@ -5,12 +5,12 @@
 	"require": {
 		"greenpeace/planet4-master-theme": "7"
 	},
-  "scripts": {
-    "core:language": "wp language core install el; wp language core install hu_HU; wp language core install nl_NL; wp language core install pt_BR;",
-    "site:custom": [
-        "@core:language"
-    ]
-  },
+	"scripts": {
+		"core:language": "wp language core install el; wp language core install hu_HU; wp language core install nl_NL; wp language core install pt_BR;",
+		"site:custom": [
+			"@core:language"
+		]
+	},
 	"repositories": [
 		{
 			"type": "package",
@@ -26,7 +26,7 @@
 				"version": 7,
 				"dist": {
 					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/36095b8c48d1a50f7fcb5047df1bf7ab7ecea844.zip"
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/185d150a535d1bc1057b729c275edacb34efab7f.zip"
 				}
 			}
 		}
