@@ -38,7 +38,6 @@ job_environments:
     APP_HOSTPATH: test-atlas
     CONTAINER_PREFIX: planet4-test-atlas
     WP_DB_NAME_PREFIX: planet4-testatla_wordpress
-    GIT_REF: PLANET-8080-move-theme-language-folder
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: www-dev.greenpeace.org
