@@ -3,12 +3,6 @@
 	"description": "Greenpeace P4 test-atlas ",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-main"
-	},
-	"scripts": {
-		"core:language": "wp language core install el; wp language core install hu_HU; wp language core install nl_NL; wp language core install pt_BR; wp language core install ar;",
-		"site:custom": [
-			"@core:language"
-		]
+		"greenpeace/planet4-master-theme": "dev-PLANET-8174_img_alt_text_mandatory"
 	}
 }
