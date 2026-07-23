@@ -3,6 +3,26 @@
 	"description": "Greenpeace P4 test-atlas ",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-PLANET-8174_img_alt_text_mandatory"
-	}
+		"greenpeace/planet4-master-theme": "7"
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-master-theme",
+				"type": "wordpress-theme",
+				"autoload": {
+					"psr-4": {
+						"P4\\MasterTheme\\": "src/"
+					}
+				},
+				"extra": null,
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/fb266816fd7c70a10e04c0e97b77fd32c00a5335.zip"
+				}
+			}
+		}
+	]
 }
